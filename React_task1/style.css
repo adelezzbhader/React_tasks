@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header Style */
+header {
+    background-color: black;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Main Content Style */
+main {
+    padding: 20px;
+}
+
+main img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto 20px;
+}
+
+main p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+main ul {
+    margin-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+main select {
+    width: 46%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+main input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ main input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(228, 126, 8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Form Style */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Footer Style */
+footer {
+    background-color: black;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px ;
+}
